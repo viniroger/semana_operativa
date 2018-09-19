@@ -14,3 +14,5 @@ O arquivo gerado contém 6 colunas:
 Como o arquivo é mensal e formado de 6 colunas, cada revisão realizada diminui o número de semanas previstas, que são substituídas pelas semanas revisadas (valores observados de vazão natural afluente, em m³/s, que podem ser alterados entre uma rodada e outra). Mais informações em https://www.monolitonimbus.com.br/definicoes-em-hidroeletricidade/
 
 Obs.: na metodologia anterior (arquivos "v1"), a semana que antecede o primeiro sábado do mês (ou do ano) é a primeira semana operativa desse mês (ou desse ano), que valia para a maioria dos meses com exceção dos meses que iniciam em um sábado e/ou último dia cai de sexta-feira.
+
+O novo script usa o módulo workalendar - https://peopledoc.github.io/workalendar/
